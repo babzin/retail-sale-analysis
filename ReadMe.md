@@ -1,88 +1,67 @@
-Retail Sales Analysis & Interactive Dashboard
+# Retail Sales Analysis
 
-A comprehensive retail analytics project built with Python, Pandas, Matplotlib, and Seaborn to analyze customer purchasing behavior, sales performance, discount effectiveness, payment trends, and regional business performance.
+**An exploratory data analysis project focused on retail performance and customer purchasing behaviour.**
 
-This project transforms raw transactional retail data into actionable business insights through data cleaning, exploratory data analysis (EDA), KPI generation, and an interactive multi-plot analytical dashboard.
+This project uses Python data-analysis tools to explore sales patterns, customer behaviour, discount effectiveness, payment methods and regional performance.
 
-Project Objectives
+## Questions explored
 
-This project aims to:
+- How does sales performance vary across product or customer groups?
+- What patterns appear in customer purchasing behaviour?
+- How do discounts relate to sales outcomes?
+- Which payment methods are represented in the dataset?
+- How does performance differ across regions?
 
-Analyze retail transaction data
-Understand customer purchasing behavior
-Evaluate discount campaign effectiveness
-Identify top-performing product categories
-Discover sales trends across time and locations
-Analyze payment method preferences
-Generate business intelligence dashboards for decision-making
-Dataset Schema
+## Technology
 
-The dataset includes:
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-Customer ID (CID)
-Transaction ID (TID)
-Gender
-Age Group
-Purchase Date
-Product Category
-Discount Information
-Gross Amount
-Net Amount
-Purchase Method
-Location
-Features
-Data Cleaning & Preparation
-Missing value handling
-Duplicate detection
-Datetime conversion
-Text standardization
-Feature engineering
-Exploratory Data Analysis (EDA)
-Revenue analysis
-Customer demographic analysis
-Product category performance
-Discount usage analysis
-Payment method trends
-Regional sales analysis
-Monthly sales trend analysis
-KPI Metrics
-Total Gross Revenue
-Total Net Revenue
-Total Discounts Given
-Average Order Value
-Total Transactions
-Visualization Dashboard
+## Analysis workflow
 
-Built using:
+```text
+Dataset
+   │
+   ▼
+Data loading and inspection
+   │
+   ▼
+Cleaning and preparation
+   │
+   ▼
+Exploratory analysis
+   │
+   ▼
+Visualisation
+   │
+   ▼
+Findings and interpretation
+```
 
-Matplotlib
-Seaborn
-Subplots
+## Getting started
 
-Dashboard includes:
+1. Clone the repository.
+2. Create and activate a Python virtual environment.
+3. Install the libraries used by the notebook.
+4. Open the Jupyter notebook and run the analysis cells.
 
-Sales by product category
-Revenue by gender
-Monthly sales trends
-Discount analysis
-Payment method analysis
-Revenue by age group
-Top-performing cities
-Net amount distribution
-Discount impact analysis
-Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Business Insights Generated
+Example setup:
 
-This project helps businesses answer questions such as:
+```bash
+python -m venv .venv
+# Activate the environment for your operating system
+pip install pandas numpy matplotlib seaborn jupyter
+jupyter notebook
+```
 
-Which customer segment generates the highest revenue?
-Which product categories perform best?
-Are discounts increasing or reducing profitability?
-Which payment methods drive higher-value transactions?
-Which cities contribute most to revenue?
-What are the seasonal purchasing trends?
+## Reproducibility
+
+Interpretations depend on the dataset and analysis choices in the notebook. Review the notebook cells and data preparation steps before relying on a result. Correlation or observed patterns should not automatically be interpreted as causation.
+
+## Author
+
+**Babs Ahmed** · [GitHub](https://github.com/babzin) · [LinkedIn](https://www.linkedin.com/in/babs-ahmed-581b5a270) · [X](https://x.com/Saintbabz)
